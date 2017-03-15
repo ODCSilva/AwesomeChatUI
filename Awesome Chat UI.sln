@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "ChatClient\Chat.csproj", "{EE74E225-E4D5-4478-A304-944347A9B50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmarChatLogger", "ChatLogger\OmarChatLogger.csproj", "{1488418E-00D0-4AD2-AC08-25E85C3CA876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatUI", "ChatUI\ChatUI.csproj", "{1B8DE991-D930-434A-9D10-CF83A878B438}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1488418E-00D0-4AD2-AC08-25E85C3CA876} = {1488418E-00D0-4AD2-AC08-25E85C3CA876}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE74E225-E4D5-4478-A304-944347A9B50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE74E225-E4D5-4478-A304-944347A9B50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE74E225-E4D5-4478-A304-944347A9B50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE74E225-E4D5-4478-A304-944347A9B50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1488418E-00D0-4AD2-AC08-25E85C3CA876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1488418E-00D0-4AD2-AC08-25E85C3CA876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1488418E-00D0-4AD2-AC08-25E85C3CA876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1488418E-00D0-4AD2-AC08-25E85C3CA876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8DE991-D930-434A-9D10-CF83A878B438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8DE991-D930-434A-9D10-CF83A878B438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8DE991-D930-434A-9D10-CF83A878B438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8DE991-D930-434A-9D10-CF83A878B438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
